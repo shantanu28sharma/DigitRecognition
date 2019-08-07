@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Recognition</title>
+    
+    <!-- Import TensorFlow.js -->
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    
+</head>
+<body class="body">
+    <div id="main">
+        <div id="text">
+            <h1 id="head">Digit Recognition</h1>
+        </div>
+        <div class="show">
+                <canvas id="can" width="190" height="190" ></canvas>
+                <div widht="150px" height="150px" id="can2">
+                    <h3 padding="0">You Drew</h3>
+                    <h1 id="write"></h1>
+                </div>
+        </div>
+        <div class="button">
+            <div>
+                <button id="predict">Predict</button>
+            </div>
+            <div>
+                <button id="erase">Erase</button>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <!-- Import tfjs-vis -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+    <script src="script.js?v=1" type="module"></script>
+</html>

@@ -1,0 +1,80 @@
+.body{
+background-color: orange;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+h1{
+    font-size: 200%;
+}
+#head{
+    display: flex;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px black;
+    text-transform: uppercase;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+#can{
+    border-radius: 15px;    
+    margin-right: 20px;
+}
+#can2{
+    text-transform: uppercase;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    border-radius: 15px;
+}
+.show{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+#predict{
+    border: 0;
+    font-size: 120%;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: green;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#erase{
+    font-weight: bold;
+    border: 0;
+    font-size: 120%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: red;
+    margin: 20px;
+    padding: 10px;
+}
+#predict:hover{
+    background-color: white;
+    border: 2px solid green;
+    color: black;
+}
+#erase:hover {
+    background-color: white; /* Green */
+    border: 2px solid red;
+    color: black;
+  }
