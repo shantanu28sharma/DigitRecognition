@@ -1,5 +1,5 @@
 # DigitRecognition
-Digit recognition using Tensorflow.js
+Digit recognition using <a href="https://www.tensorflow.org/js">Tensorflow.js</a>
 
 <img src="Sample Images/five.png" width="400">
 
